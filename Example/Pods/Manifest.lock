@@ -1,0 +1,16 @@
+PODS:
+  - gcovFlushAdapter (0.1.0)
+
+DEPENDENCIES:
+  - gcovFlushAdapter (from `../`)
+
+EXTERNAL SOURCES:
+  gcovFlushAdapter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  gcovFlushAdapter: 7c470331de85e8fa29718362a5780c0326705082
+
+PODFILE CHECKSUM: e5aa1e1d0e99156f8f957b4d9170affaeaa163c2
+
+COCOAPODS: 1.9.3

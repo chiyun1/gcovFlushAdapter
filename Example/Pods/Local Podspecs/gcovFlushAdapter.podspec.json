@@ -1,0 +1,22 @@
+{
+  "name": "gcovFlushAdapter",
+  "version": "0.1.0",
+  "summary": "A short description of gcovFlushAdapter.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/chiyun1/gcovFlushAdapter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "chiyun1": "malongtx059@sogou-inc.com"
+  },
+  "source": {
+    "git": "https://github.com/chiyun1/gcovFlushAdapter.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "gcovFlushAdapter/Classes/**/*"
+}

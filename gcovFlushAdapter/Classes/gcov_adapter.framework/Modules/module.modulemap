@@ -1,0 +1,6 @@
+framework module gcov_adapter {
+  umbrella header "gcov_adapter.h"
+
+  export *
+  module * { export * }
+}
