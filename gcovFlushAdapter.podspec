@@ -31,6 +31,6 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   
-  s.vendored_frameworks = 'SGDebugPatch/Classes/gcov_adapter.framework'
+  s.vendored_frameworks = 'gcovFlushAdapter/Classes/gcov_adapter.framework'
   
 end
