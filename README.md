@@ -1,0 +1,2 @@
+# gcovFlushAdapter
+解决升级Xcode13, 检测代码覆盖度时找不到__gcov_flush方法的问题
