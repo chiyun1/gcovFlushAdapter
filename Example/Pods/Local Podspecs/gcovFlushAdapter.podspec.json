@@ -9,14 +9,14 @@
     "file": "LICENSE"
   },
   "authors": {
-    "chiyun1": "malongtx059@sogou-inc.com"
+    "chiyun1": "chiyunbubu@gmail.com"
   },
   "source": {
     "git": "https://github.com/chiyun1/gcovFlushAdapter.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "8.0"
   },
-  "source_files": "gcovFlushAdapter/Classes/**/*"
+  "vendored_frameworks": "gcovFlushAdapter/Classes/gcov_adapter.framework"
 }

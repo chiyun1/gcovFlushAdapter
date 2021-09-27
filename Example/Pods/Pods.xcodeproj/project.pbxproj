@@ -6,28 +6,36 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		3BDE2B8B6DC88C41835C650D586D8C95 /* gcovFlushAdapter */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E4F776176D5DCC708699550F8FF7EE3C /* Build configuration list for PBXAggregateTarget "gcovFlushAdapter" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = gcovFlushAdapter;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		0B54314E3801D1FA66B01A5C7616D3C9 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = DB450E2EC31FBD8711DFFB31847BE2AD /* ReplaceMe.m */; };
 		2ACFAC297AAB091562933DC2DBAB3D0C /* Pods-gcovFlushAdapter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 718CA26BAAB03F3538475C1A2BFC696F /* Pods-gcovFlushAdapter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2D309025334C731ECCA6C27049E3F9E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		561BC0474C4F5B9AFAB7F2B636FAB3A1 /* Pods-gcovFlushAdapter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF7FE6EBFF5D34563CD6437A938072E /* Pods-gcovFlushAdapter_Tests-dummy.m */; };
-		60F4030F691B19B37F2561367D3EF9FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		83EF0359A28D2F1A7CD0AD972DCB22FB /* Pods-gcovFlushAdapter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7E0BADD4EAA63FF936D02BAC5BE8414 /* Pods-gcovFlushAdapter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A865214C732C6AA6696D1C8331E42D8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		B0F6FD4393AC739F20CBF9F17CE32425 /* Pods-gcovFlushAdapter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2880EC8857DDDE2B13F8137B3971EF /* Pods-gcovFlushAdapter_Example-dummy.m */; };
-		C48B4B85266A8EE153D94B4C8456B707 /* gcovFlushAdapter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9CD7C3AF254FD089019AF87318CB254 /* gcovFlushAdapter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D6CBDAADBC7A976B5BAC4A29ADA30846 /* gcovFlushAdapter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F18ABEDA9CC11AA03FC46A9E31C091 /* gcovFlushAdapter-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4A561E8369F6310F6676825961FD87D3 /* PBXContainerItemProxy */ = {
+		1DEB0F3E3B2D41789FA0CDE1A587F809 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3BDE2B8B6DC88C41835C650D586D8C95;
 			remoteInfo = gcovFlushAdapter;
 		};
-		83045F9F4C86F1F88EF16FADA3975F12 /* PBXContainerItemProxy */ = {
+		F825BAFB236EF08FF61E49EDF74CF5DF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -37,39 +45,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		072544E65F21A6F61CA10AFF7AC27CA0 /* gcovFlushAdapter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = gcovFlushAdapter.debug.xcconfig; sourceTree = "<group>"; };
 		07A3A60E27C451E612F0A9A3F98FF239 /* Pods-gcovFlushAdapter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-gcovFlushAdapter_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		0E5188E02F94D452F876B8B230F892B3 /* Pods-gcovFlushAdapter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-gcovFlushAdapter_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		173040D7A55F7269C716C393A7FC0843 /* gcovFlushAdapter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = gcovFlushAdapter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2A289A974637167743D686AFE079CA00 /* gcovFlushAdapter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = gcovFlushAdapter.debug.xcconfig; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		36ED6D982DF5A8CE8086C885FD607883 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		3714E2C635308ABA904944C23FB00B94 /* Pods_gcovFlushAdapter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_gcovFlushAdapter_Tests.framework; path = "Pods-gcovFlushAdapter_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EAD2AE529D69EEFBAF461AD2444F19E /* Pods-gcovFlushAdapter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-gcovFlushAdapter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		4D458CF9EF9BBF048E76DBBF16E283E4 /* Pods-gcovFlushAdapter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-gcovFlushAdapter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4ECBBDF0804A0B353F17EAEC765949CF /* Pods-gcovFlushAdapter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-gcovFlushAdapter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		54AC3FA27DFE5F699D66DB301D7EFBFD /* gcovFlushAdapter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "gcovFlushAdapter-Info.plist"; sourceTree = "<group>"; };
-		54F18ABEDA9CC11AA03FC46A9E31C091 /* gcovFlushAdapter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "gcovFlushAdapter-dummy.m"; sourceTree = "<group>"; };
-		56D39FB9E25E9D796D64791AF7FA8E98 /* gcovFlushAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = gcovFlushAdapter.framework; path = gcovFlushAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5726DE302A7FDECF5FD41C09E7F2D32A /* Pods_gcovFlushAdapter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_gcovFlushAdapter_Example.framework; path = "Pods-gcovFlushAdapter_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E339EBC91A8CAFE0D8E58EB97355308 /* Pods-gcovFlushAdapter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-gcovFlushAdapter_Tests.modulemap"; sourceTree = "<group>"; };
+		627315F431072122F17B3013C4480671 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		69F1E839CC188B4735197C6CDAA8E0AC /* Pods-gcovFlushAdapter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-gcovFlushAdapter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6D80B40927937107C557F252D78F55AE /* gcovFlushAdapter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = gcovFlushAdapter.release.xcconfig; sourceTree = "<group>"; };
-		6F1BA74A146521C017C29D42FBD5E64E /* gcovFlushAdapter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "gcovFlushAdapter-prefix.pch"; sourceTree = "<group>"; };
 		718CA26BAAB03F3538475C1A2BFC696F /* Pods-gcovFlushAdapter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-gcovFlushAdapter_Tests-umbrella.h"; sourceTree = "<group>"; };
-		78153F2C4F1986447798CADFB83AAEF6 /* gcovFlushAdapter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = gcovFlushAdapter.modulemap; sourceTree = "<group>"; };
 		81D53386BA7A354333EF19F38084198D /* Pods-gcovFlushAdapter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-gcovFlushAdapter_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8312363E0512925BAAD785C920B5BA0F /* gcov_adapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = gcov_adapter.framework; path = gcovFlushAdapter/Classes/gcov_adapter.framework; sourceTree = "<group>"; };
 		8EBEAF241B4F34B7902BCDD3F0883337 /* Pods-gcovFlushAdapter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-gcovFlushAdapter_Example.modulemap"; sourceTree = "<group>"; };
 		9BE576A8B7240F8C873D99F7CCC52647 /* Pods-gcovFlushAdapter_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-gcovFlushAdapter_Example-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A858203A3187BEA7C9115C3BE58052C1 /* Pods-gcovFlushAdapter_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-gcovFlushAdapter_Tests-Info.plist"; sourceTree = "<group>"; };
+		BB161210DFA861B769C4A4674977CBE8 /* gcovFlushAdapter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = gcovFlushAdapter.release.xcconfig; sourceTree = "<group>"; };
 		BEF7FE6EBFF5D34563CD6437A938072E /* Pods-gcovFlushAdapter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-gcovFlushAdapter_Tests-dummy.m"; sourceTree = "<group>"; };
 		C1049B64DE724CC9D1EBB45A084817DD /* Pods-gcovFlushAdapter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-gcovFlushAdapter_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C7E0BADD4EAA63FF936D02BAC5BE8414 /* Pods-gcovFlushAdapter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-gcovFlushAdapter_Example-umbrella.h"; sourceTree = "<group>"; };
-		D091421D9A11BB1F206F9C73299E3636 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		D9CD7C3AF254FD089019AF87318CB254 /* gcovFlushAdapter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "gcovFlushAdapter-umbrella.h"; sourceTree = "<group>"; };
-		DB450E2EC31FBD8711DFFB31847BE2AD /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = gcovFlushAdapter/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		DCD7B5151B32BE5CDCA9054B17E9C2E1 /* Pods-gcovFlushAdapter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-gcovFlushAdapter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DD2E91FF50652AC38BCA92DE93C6EED0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		FB2880EC8857DDDE2B13F8137B3971EF /* Pods-gcovFlushAdapter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-gcovFlushAdapter_Example-dummy.m"; sourceTree = "<group>"; };
-		FEF8B353B01E056A07F5C58ABBC36523 /* gcovFlushAdapter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = gcovFlushAdapter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,41 +91,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D677A63FA50EB4F4C1AF27B30CFA6FA2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				60F4030F691B19B37F2561367D3EF9FB /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2C056C94B94FBF1FB40306FD5DC7027A /* gcovFlushAdapter */ = {
+		0096D069AD9EC4F90763267F158EC52A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DB450E2EC31FBD8711DFFB31847BE2AD /* ReplaceMe.m */,
-				FC50CA5F6A14141C2632ADF0F0A82784 /* Pod */,
-				2C24CEB9718CFCB6EEA0C7BC920A32DB /* Support Files */,
+				8312363E0512925BAAD785C920B5BA0F /* gcov_adapter.framework */,
 			);
-			name = gcovFlushAdapter;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		2C24CEB9718CFCB6EEA0C7BC920A32DB /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				78153F2C4F1986447798CADFB83AAEF6 /* gcovFlushAdapter.modulemap */,
-				54F18ABEDA9CC11AA03FC46A9E31C091 /* gcovFlushAdapter-dummy.m */,
-				54AC3FA27DFE5F699D66DB301D7EFBFD /* gcovFlushAdapter-Info.plist */,
-				6F1BA74A146521C017C29D42FBD5E64E /* gcovFlushAdapter-prefix.pch */,
-				D9CD7C3AF254FD089019AF87318CB254 /* gcovFlushAdapter-umbrella.h */,
-				072544E65F21A6F61CA10AFF7AC27CA0 /* gcovFlushAdapter.debug.xcconfig */,
-				6D80B40927937107C557F252D78F55AE /* gcovFlushAdapter.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/gcovFlushAdapter";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		3EDA97384BFB91F1CD3B0BA7B1C4EDEB /* Targets Support Files */ = {
@@ -135,10 +111,30 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		4B141CE6565E34AD225C6721F3EF378E /* gcovFlushAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				0096D069AD9EC4F90763267F158EC52A /* Frameworks */,
+				C5871A951CE7C8E7E32F5E25FBFAEB10 /* Pod */,
+				ED72E13E16988E9DD560898330DA51A1 /* Support Files */,
+			);
+			name = gcovFlushAdapter;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		51597DE33924FADCA21EBBA98A842D83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5726DE302A7FDECF5FD41C09E7F2D32A /* Pods_gcovFlushAdapter_Example.framework */,
+				3714E2C635308ABA904944C23FB00B94 /* Pods_gcovFlushAdapter_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		6FA6B3D857C4EBC4ED07B8174E14DA8D /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2C056C94B94FBF1FB40306FD5DC7027A /* gcovFlushAdapter */,
+				4B141CE6565E34AD225C6721F3EF378E /* gcovFlushAdapter */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -149,6 +145,16 @@
 				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		C5871A951CE7C8E7E32F5E25FBFAEB10 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				173040D7A55F7269C716C393A7FC0843 /* gcovFlushAdapter.podspec */,
+				DD2E91FF50652AC38BCA92DE93C6EED0 /* LICENSE */,
+				627315F431072122F17B3013C4480671 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		C6027822111A30C54682DEFC788549BF /* Pods-gcovFlushAdapter_Tests */ = {
@@ -173,7 +179,7 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				6FA6B3D857C4EBC4ED07B8174E14DA8D /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				F7F020F1BB09169654DE67D46B5E2677 /* Products */,
+				51597DE33924FADCA21EBBA98A842D83 /* Products */,
 				3EDA97384BFB91F1CD3B0BA7B1C4EDEB /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -203,37 +209,19 @@
 			path = "Target Support Files/Pods-gcovFlushAdapter_Example";
 			sourceTree = "<group>";
 		};
-		F7F020F1BB09169654DE67D46B5E2677 /* Products */ = {
+		ED72E13E16988E9DD560898330DA51A1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				56D39FB9E25E9D796D64791AF7FA8E98 /* gcovFlushAdapter.framework */,
-				5726DE302A7FDECF5FD41C09E7F2D32A /* Pods_gcovFlushAdapter_Example.framework */,
-				3714E2C635308ABA904944C23FB00B94 /* Pods_gcovFlushAdapter_Tests.framework */,
+				2A289A974637167743D686AFE079CA00 /* gcovFlushAdapter.debug.xcconfig */,
+				BB161210DFA861B769C4A4674977CBE8 /* gcovFlushAdapter.release.xcconfig */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		FC50CA5F6A14141C2632ADF0F0A82784 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				FEF8B353B01E056A07F5C58ABBC36523 /* gcovFlushAdapter.podspec */,
-				36ED6D982DF5A8CE8086C885FD607883 /* LICENSE */,
-				D091421D9A11BB1F206F9C73299E3636 /* README.md */,
-			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/gcovFlushAdapter";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		DB37B7E47142470E6E28758FF96CDF0D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C48B4B85266A8EE153D94B4C8456B707 /* gcovFlushAdapter-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E4295D00600FD53E3EC2E2D34AF388DA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -253,24 +241,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3BDE2B8B6DC88C41835C650D586D8C95 /* gcovFlushAdapter */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E8670FE3BDDE90011F58B47E73D43B4B /* Build configuration list for PBXNativeTarget "gcovFlushAdapter" */;
-			buildPhases = (
-				DB37B7E47142470E6E28758FF96CDF0D /* Headers */,
-				B5E07E1AED10FEEDB2B72D2A89F9B3A6 /* Sources */,
-				D677A63FA50EB4F4C1AF27B30CFA6FA2 /* Frameworks */,
-				1ABC2CB3EC377291289DB5BC22216173 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = gcovFlushAdapter;
-			productName = gcovFlushAdapter;
-			productReference = 56D39FB9E25E9D796D64791AF7FA8E98 /* gcovFlushAdapter.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		9932FECC173BFBAE16C43B824D28E0AC /* Pods-gcovFlushAdapter_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FD1804DF28017EC7C54F66B8FB04B3A /* Build configuration list for PBXNativeTarget "Pods-gcovFlushAdapter_Example" */;
@@ -283,7 +253,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				D3EA8B895B1AABB589F4D8159530B697 /* PBXTargetDependency */,
+				4A5AB2E4A2C9671E747A65721D484FEB /* PBXTargetDependency */,
 			);
 			name = "Pods-gcovFlushAdapter_Example";
 			productName = "Pods-gcovFlushAdapter_Example";
@@ -302,7 +272,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				90B813CF5DA338024CAC1B30DF0DABD7 /* PBXTargetDependency */,
+				92BB6E3B86171315B3725B0CA8AB20C6 /* PBXTargetDependency */,
 			);
 			name = "Pods-gcovFlushAdapter_Tests";
 			productName = "Pods-gcovFlushAdapter_Tests";
@@ -327,7 +297,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = F7F020F1BB09169654DE67D46B5E2677 /* Products */;
+			productRefGroup = 51597DE33924FADCA21EBBA98A842D83 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -340,13 +310,6 @@
 
 /* Begin PBXResourcesBuildPhase section */
 		14998A698256743CF3FF431D34DD3A81 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1ABC2CB3EC377291289DB5BC22216173 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -371,15 +334,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5E07E1AED10FEEDB2B72D2A89F9B3A6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D6CBDAADBC7A976B5BAC4A29ADA30846 /* gcovFlushAdapter-dummy.m in Sources */,
-				0B54314E3801D1FA66B01A5C7616D3C9 /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C0F55B5C7DA47E9F5289C4995267F141 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -391,53 +345,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		90B813CF5DA338024CAC1B30DF0DABD7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-gcovFlushAdapter_Example";
-			target = 9932FECC173BFBAE16C43B824D28E0AC /* Pods-gcovFlushAdapter_Example */;
-			targetProxy = 83045F9F4C86F1F88EF16FADA3975F12 /* PBXContainerItemProxy */;
-		};
-		D3EA8B895B1AABB589F4D8159530B697 /* PBXTargetDependency */ = {
+		4A5AB2E4A2C9671E747A65721D484FEB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = gcovFlushAdapter;
 			target = 3BDE2B8B6DC88C41835C650D586D8C95 /* gcovFlushAdapter */;
-			targetProxy = 4A561E8369F6310F6676825961FD87D3 /* PBXContainerItemProxy */;
+			targetProxy = 1DEB0F3E3B2D41789FA0CDE1A587F809 /* PBXContainerItemProxy */;
+		};
+		92BB6E3B86171315B3725B0CA8AB20C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-gcovFlushAdapter_Example";
+			target = 9932FECC173BFBAE16C43B824D28E0AC /* Pods-gcovFlushAdapter_Example */;
+			targetProxy = F825BAFB236EF08FF61E49EDF74CF5DF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		33268A02FCFAA4B790F29A933D32B931 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6D80B40927937107C557F252D78F55AE /* gcovFlushAdapter.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/gcovFlushAdapter/gcovFlushAdapter-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/gcovFlushAdapter/gcovFlushAdapter-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/gcovFlushAdapter/gcovFlushAdapter.modulemap";
-				PRODUCT_MODULE_NAME = gcovFlushAdapter;
-				PRODUCT_NAME = gcovFlushAdapter;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		6EF48F290E4BCC3D95A29F18AE36F18A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 69F1E839CC188B4735197C6CDAA8E0AC /* Pods-gcovFlushAdapter_Tests.debug.xcconfig */;
@@ -595,6 +517,19 @@
 			};
 			name = Debug;
 		};
+		98B6580C299137A51278D83357C2DD4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A289A974637167743D686AFE079CA00 /* gcovFlushAdapter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		A2954ED9A9B0A7AFA42E3D04AF13EFCF /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 81D53386BA7A354333EF19F38084198D /* Pods-gcovFlushAdapter_Example.release.xcconfig */;
@@ -626,6 +561,20 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AE0CE9D805AF4128D8E4F7DE38627A48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB161210DFA861B769C4A4674977CBE8 /* gcovFlushAdapter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -696,37 +645,6 @@
 			};
 			name = Debug;
 		};
-		DE2925F4C504706CC581F3369B3C2DF9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 072544E65F21A6F61CA10AFF7AC27CA0 /* gcovFlushAdapter.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/gcovFlushAdapter/gcovFlushAdapter-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/gcovFlushAdapter/gcovFlushAdapter-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/gcovFlushAdapter/gcovFlushAdapter.modulemap";
-				PRODUCT_MODULE_NAME = gcovFlushAdapter;
-				PRODUCT_NAME = gcovFlushAdapter;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -757,11 +675,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E8670FE3BDDE90011F58B47E73D43B4B /* Build configuration list for PBXNativeTarget "gcovFlushAdapter" */ = {
+		E4F776176D5DCC708699550F8FF7EE3C /* Build configuration list for PBXAggregateTarget "gcovFlushAdapter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DE2925F4C504706CC581F3369B3C2DF9 /* Debug */,
-				33268A02FCFAA4B790F29A933D32B931 /* Release */,
+				98B6580C299137A51278D83357C2DD4E /* Debug */,
+				AE0CE9D805AF4128D8E4F7DE38627A48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

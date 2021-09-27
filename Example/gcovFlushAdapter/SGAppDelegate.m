@@ -8,11 +8,14 @@
 
 #import "SGAppDelegate.h"
 
+
 @implementation SGAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    extern void __gcov_flush(void);
+    __gcov_flush();
     return YES;
 }
 

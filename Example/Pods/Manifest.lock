@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  gcovFlushAdapter: 7c470331de85e8fa29718362a5780c0326705082
+  gcovFlushAdapter: 38a80b698bfbf999ad541a691adb13e01fe8da2c
 
 PODFILE CHECKSUM: e5aa1e1d0e99156f8f957b4d9170affaeaa163c2
 

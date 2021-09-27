@@ -1,6 +1,0 @@
-framework module gcovFlushAdapter {
-  umbrella header "gcovFlushAdapter-umbrella.h"
-
-  export *
-  module * { export * }
-}

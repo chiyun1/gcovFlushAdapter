@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3BDE2B8B6DC88C41835C650D586D8C95"
-               BuildableName = "gcovFlushAdapter.framework"
+               BuildableName = "gcovFlushAdapter"
                BlueprintName = "gcovFlushAdapter"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
