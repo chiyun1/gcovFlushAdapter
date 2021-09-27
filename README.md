@@ -24,7 +24,7 @@ pod 'gcovFlushAdapter'
 
 ## Author
 
-chiyun1, malongtx059@sogou-inc.com
+chiyun1, chiyunbubu@gmail.com
 
 ## License
 
