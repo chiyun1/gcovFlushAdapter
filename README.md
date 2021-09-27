@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/gcovFlushAdapter.svg?style=flat)](https://cocoapods.org/pods/gcovFlushAdapter)
 [![Platform](https://img.shields.io/cocoapods/p/gcovFlushAdapter.svg?style=flat)](https://cocoapods.org/pods/gcovFlushAdapter)
 
-解决升级Xcode13, 检测代码覆盖度时找不到__gcov_flush方法的问题。
+解决升级Xcode13, 检测代码覆盖度时，会出`Undefined symbol: ___gcov_flush` 这个错误的问题。在项目Podfile里加入这个pod库后，就可以正常使用了。原因是`___gcov_flush`这个方法在Xcode13中已经从特定的系统库中移除了，所以找了一个旧的库封装了一下。目前framework只做了x64架构的。
 
 ## Example
 
